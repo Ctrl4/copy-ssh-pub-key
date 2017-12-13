@@ -9,11 +9,12 @@ Para poder utilizar el script hay ciertas consideraciones.
 * La lista de computadoras a las cuales vamos a copiar nuestra clave pública tienen la misma contraseña.
 * Debemos ingresar dicha contraseña en un archivo llamado .conf en el mismo directorio del script (o cambiar la variable CONF_FILE dentro del mismo)
 * Por lo pronto la lista de servidores necesita ser un archivo llamado servidores.txt con una lista de un servidor por linea, y 3 campos por lineas separadas por coma. _NOTA: en un futuro esto va a ser más personalizado_
-	
+
+```
 	algo, algo, 192.168.1.1
 	algo, algo, 10.1.2.1
 	,,192.168.1.2
-
+```
 
 ## Dependencias
 
