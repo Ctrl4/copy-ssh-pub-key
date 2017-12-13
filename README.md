@@ -11,9 +11,9 @@ Para poder utilizar el script hay ciertas consideraciones.
 * Por lo pronto la lista de servidores necesita ser un archivo llamado servidores.txt con una lista de un servidor por linea, y 3 campos por lineas separadas por coma. _NOTA: en un futuro esto va a ser más personalizado_
 
 ```
-	algo, algo, 192.168.1.1
-	algo, algo, 10.1.2.1
-	,,192.168.1.2
+algo, algo, 192.168.1.1
+algo, algo, 10.1.2.1
+,,192.168.1.2
 ```
 
 ## Dependencias
