@@ -1,1 +1,4 @@
- 
+#Ejemplo de servidores txt. IMPORTANTE QUE LA IP ESTÉ DESPUÉS DE LA SEGUNDA COMA.
+,,192.168.8.1
+algo,algo,10.1.2.1
+algo,algo,192.168.2.3
