@@ -14,6 +14,7 @@
 # 4 - ssh-add <ruta del rsa_id.pub> (default /home/<user>/.ssh/rsa_id.pub NOTA: si no se cambia la ruta la agrega directamente de esta ruta)
 # 5 - ssh-copy-id <usuario>@<ip> ingresar password.  <== Esto es lo que hay que repetir.
 
+CONF_FILE='.conf'
 LOG_FILE=$(basename $0 .sh).log
 # Funciones varias
 function Log {
@@ -48,7 +49,7 @@ fi
 
 # Función que recibe una ip y ejecuta ssh-copy-id en dicha ip
 function CopyId(){
-	sshpass -p geocom ssh-copy-id $1
+	sshpass -f $CONF_FILE ssh-copy-id $1
 	CheckCommand $? "Ocurrió un error al intentar copiar la clave"
 }
 
